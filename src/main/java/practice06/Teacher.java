@@ -21,6 +21,6 @@ public class Teacher extends Person {
         String secondString = "I teach Class " + getKlass() + ".";
         String secondStringNull = "I teach No Class.";
 
-        return klass != 0 ? firstString + secondString : firstString + secondStringNull;
+        return klass != 0 ? firstString +  secondString : firstString + secondStringNull;
     }
 }
