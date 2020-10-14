@@ -19,7 +19,7 @@ public class Student extends Person {
     public String introduce() {
         String studentIntroduction = "My name is " + getName() + ". I am " + getAge() + " years old. I am a Student. ";
         String studentLeader = "I am Leader of Class " + getNumber() + ".";
-        String studentNotLeader = "I am at Class " + getNumber() + ".";
+        String studentNotLeader = "I am at Class " +  getNumber() + ".";
 
         return klass.getLeader() != null ? studentIntroduction + studentLeader : studentIntroduction + studentNotLeader;
     }

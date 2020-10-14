@@ -31,7 +31,7 @@ public class Teacher extends Person {
     public String introduceWith(Student studentName) {
         String teacherIntroduction = "My name is " + getName() + ". I am " + getAge() + " years old. I am a Teacher. ";
         String teacherHasStudent = "I teach " + studentName.getName() + ".";
-        String teacherHasNoStudent = "I don't teach " + studentName.getName() + ".";
+        String teacherHasNoStudent = "I don't teach " +  studentName.getName() + ".";
 
         return klass.getNumber() == studentName.getNumber() ? teacherIntroduction + teacherHasStudent : teacherIntroduction + teacherHasNoStudent;
     }
