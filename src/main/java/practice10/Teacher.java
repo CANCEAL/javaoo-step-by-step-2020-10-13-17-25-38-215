@@ -36,11 +36,7 @@ public class Teacher extends Person {
     }
 
     public boolean isTeaching(Student student) {
-        if (getClasses().contains(student.getKlass())) {
-            return true;
-        } else {
-            return false;
-        }
+        return getClasses().contains(student.getKlass());
     }
 
     public String introduce(){
