@@ -5,11 +5,11 @@ import java.util.LinkedList;
 public class Teacher extends Person {
     final String teacherIntroduction = " I am a Teacher. I ";
 
-    Klass klass = new Klass();
-    LinkedList<Klass> linkedList = new LinkedList<Klass>();
+    private Klass klass = new Klass();
+    private LinkedList<Klass> linkedList = new LinkedList<Klass>();
     private int classNumber;
 
-    public Klass getKlass(){
+    private Klass getKlass(){
         return klass;
     }
 
