@@ -36,7 +36,7 @@ public class Klass {
         //append the student on the list
     }
 
-    public boolean isIn() {
-        return true;
+    public Klass isIn(Student student) {
+        return student.getKlass();
     }
 }
